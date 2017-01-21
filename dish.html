@@ -1,0 +1,644 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Orderhood</title>
+    <!-- Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core Css -->
+    <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Light Gallery Plugin Css -->
+    <link href="plugins/light-gallery/css/lightgallery.css" rel="stylesheet">
+
+    <!-- Preloader Css -->
+    <link href="plugins/material-design-preloader/md-preloader.css" rel="stylesheet" />
+
+    <!-- Custom Css -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- theme orderhood -->
+    <link href="css/theme-orderhood.css" rel="stylesheet" />
+
+
+</head>
+
+<body class="theme-orderhood">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="md-preloader pl-size-md">
+                <svg viewbox="0 0 75 75">
+                    <circle cx="37.5" cy="37.5" r="33.5" class="pl-red" stroke-width="4" />
+                </svg>
+            </div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <div class="search-icon">
+            <i class="material-icons">search</i>
+        </div>
+        <input type="text" placeholder="START TYPING...">
+        <div class="close-search">
+            <i class="material-icons">close</i>
+        </div>
+    </div>
+    <!-- #END# Search Bar -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">OrderHood</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="javascript:void(0);" class="cart"><i class="material-icons">shopping_cart</i><span>1</span></a></li>
+                    <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+
+    
+
+
+
+    <!-- top banner -->
+    <section class="dish-banner">
+        <div class="col-md-12 txtc">
+            <div class="dish-banner-restaurant">
+                <div class="name txtc">
+                    <a href="restaurant.html" class="txt-white"><small>RESTAURANT</small>Bistro Les Amis</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 dish-banner-content">
+            <h2>La Contenta Nachos</h2>
+            <!-- <div class="txt-white">Last order on Sep 15, 2016</div> -->
+            <div class="number">
+                <ul>
+                    <li><i class="material-icons txt-red">favorite_border</i><span>8</span></li>
+                    <li><i class="material-icons">bookmark_border</i><span>3</span></li>
+                    <li><i class="material-icons">shopping_cart</i><span>72</span></li>
+                    <li class="pull-right"><button class="btn btn-lg btn-outline"><i class="material-icons">share</i> SHARE</button></li>
+                    <li class="pull-right"><button class="btn btn-lg btn-outline"><i class="material-icons">bookmark</i> ADD TO THEME</button></li>
+                    <li class="pull-right"><button class="btn btn-lg btn-outline"><i class="material-icons">favorite</i> LIKE</button></li>
+                    <li class="pull-right"><button class="btn btn-lg btn-outline"><i class="material-icons">photo_camera</i> Upload</button></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- panel -->
+    <section class="dish-panel">
+            <div class="profile-tabs">
+                <ul class="nav nav-tabs tab-col-orderhood" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#0" data-toggle="tab">
+                            <i class="material-icons">reorder</i> DESCRIPTION
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#1" data-toggle="tab">
+                            <i class="material-icons">rate_review</i> REVIEWS (7)
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#2" data-toggle="tab">
+                            <i class="material-icons">favorite</i> WHO LIKES (8)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </section>
+
+
+
+
+
+
+    <section class="dish-detail">
+        <!-- Tab panes -->
+        <div class="col-md-9 tab-content">
+            <div role="tabpanel" class="tab-pane p-t-20 fade in active" id="0">
+                
+                <div class="col-md-12">
+                    <div class="col-md-12 dish-description">
+                        <h4>Description</h4>
+                        <p>With broccoli, black olives, tossed over rigatoni with tomato sauce.</p>                    
+                    </div>
+
+
+                    <div class="col-md-12 dish-description">
+                        <h4>Photos (22)</h4>
+                        <div id="aniimated-thumbnials" class="list-unstyled row clearfix">
+                            <div class="col-md-3 col-xs-12">
+                                <a href="https://s3-media3.fl.yelpcdn.com/bphoto/rTW294Va3z8d1JRCqeKAVg/o.jpg" data-sub-html="Posted by Alice Hayes">
+                                    <img class="img-responsive thumbnail" src="https://s3-media3.fl.yelpcdn.com/bphoto/rTW294Va3z8d1JRCqeKAVg/o.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-xs-12">
+                                <a href="https://s3-media3.fl.yelpcdn.com/bphoto/rTW294Va3z8d1JRCqeKAVg/o.jpg" data-sub-html="Posted by Della Peters">
+                                    <img class="img-responsive thumbnail" src="https://s3-media3.fl.yelpcdn.com/bphoto/rTW294Va3z8d1JRCqeKAVg/o.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-xs-12">
+                                <a href="https://s3-media3.fl.yelpcdn.com/bphoto/rTW294Va3z8d1JRCqeKAVg/o.jpg" data-sub-html="Posted by Alice Hayes">
+                                    <img class="img-responsive thumbnail" src="https://s3-media3.fl.yelpcdn.com/bphoto/rTW294Va3z8d1JRCqeKAVg/o.jpg">
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-xs-12 last">
+                                <a href="https://s3-media3.fl.yelpcdn.com/bphoto/rTW294Va3z8d1JRCqeKAVg/o.jpg" data-sub-html="Posted by Alice Hayes">
+                                    <!-- <img src="images/see-all-photos.png" alt="overlay"> -->
+                                    <img class="img-responsive thumbnail" src="https://s3-media3.fl.yelpcdn.com/bphoto/rTW294Va3z8d1JRCqeKAVg/o.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                        
+                    <div class="col-md-12 dish-description">
+                        <h4>Added to themes (3)</h4>
+                        <div class="theme-item">
+                            <div class="theme-img">
+                                <div class="like"><a href="theme.html"><i class="material-icons txt-white">restaurant</i></a></div>
+                                <img src="https://s3-media1.fl.yelpcdn.com/bphoto/BoOELmF99ilZER2UjLOOmQ/o.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="theme-info">
+                                <div class="creator">
+                                    <img src="images/user.png" alt="User"><a href="user.html"><span>Kelly Kane</span></a>
+                                </div>
+                                <a href="theme.html"><h1>Good Friday</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>12</span></li>
+                                        <li><i class="material-icons">restaurant</i><span>11</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="tags">
+                                    <span class="label label-md label-outline">New</span>
+                                    <span class="label label-md label-outline">Healthy</span>
+                                    <span class="label label-md label-outline">Happy</span>
+                                    <span class="label label-md label-outline">Afternoon</span>
+                                    <span class="label label-md label-outline">Small money</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="theme-item">
+                            <div class="theme-img">
+                                <div class="like"><a href="theme.html"><i class="material-icons txt-white">restaurant</i></a></div>
+                                <img src="https://s3-media4.fl.yelpcdn.com/bphoto/tYa34sXSyBEVJj_bFtK40A/o.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="theme-info">
+                                <div class="creator">
+                                    <img src="images/user5.png" alt="User"><a href="user.html"><span>Henry Vargas</span></a>
+                                </div>
+                                <a href="theme.html"><h1>Burger Paradise in New York</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>234</span></li>
+                                        <li><i class="material-icons">restaurant</i><span>17</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="tags">
+                                    <span class="label label-md label-outline">New York</span>
+                                    <span class="label label-md label-outline">Burger</span>
+                                    <span class="label label-md label-outline">Fries</span>
+                                    <span class="label label-md label-outline">sandwich</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="theme-item">
+                            <div class="theme-img">
+                                <div class="like"><a href="theme.html"><i class="material-icons txt-white">restaurant</i></a></div>
+                                <img src="https://s3-media3.fl.yelpcdn.com/bphoto/K4N3Dczv5UGIvO-Yr9k51g/o.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="theme-info">
+                                <div class="creator">
+                                    <img src="images/user8.png" alt="User"><a href="user.html"><span>Alice Hayes</span></a>
+                                </div>
+                                <a href="theme.html"><h1>Japanese Bowl Collection</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>32</span></li>
+                                        <li><i class="material-icons">restaurant</i><span>6</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="tags">
+                                    <span class="label label-md label-outline">Bowl</span>
+                                    <span class="label label-md label-outline">PokeSpot</span>
+                                    <span class="label label-md label-outline">Spicy</span>
+                                    <span class="label label-md label-outline">Salmon</span>
+                                    <span class="label label-md label-outline">New York</span>
+                                    <span class="label label-md label-outline">Charging Bull</span>
+                                    <span class="label label-md label-outline">Sriracha</span>
+                                    <span class="label label-md label-outline">Aioli</span>
+                                    <span class="label label-md label-outline">Hot</span>
+                                    <span class="label label-md label-outline">Japanese</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+
+                <!-- <div class="col-md-3">
+                    <a href="#"><h3 class="card-price">$10.00</h3></a>
+                    <div class="col-md-12 restaurant-item">
+                        
+                        
+                        <div class="logo"><a href="restaurant.html"><img src="images/restaurant1.jpg" alt="restaurant"/></a></div>
+                        <div class="name txtc">
+                            <a href="restaurant.html">Bistro Les Amis<small>NEW YORK</small></a>
+                        </div>
+                        <div class="col-md-6 txtc" style="border-right: 1px solid #cdcdcd;"><a href="#"><i class="material-icons">place</i></a></div>
+                        <div class="col-md-6 txtc"><a href="#"><i class="material-icons">view_list</i></a></div>
+                    </div>
+                </div> -->
+
+            </div>
+
+
+
+            <div role="tabpanel" class="tab-pane p-t-20 fade" id="1">
+                <div class="col-md-12">
+                    <div class="col-md-12 dish-description">
+                        <h4>Reviews</h4>
+                        <!-- comment input field -->
+                        <div class="col-md-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user.png" alt="User"/><a href="user.html"><span>Kelly Kane</span></a>
+                            </div>
+                            <div class="comment-input">
+                                <div class="input-group">
+                                    <div class="form-line">
+                                        <input type="text" class="form-control date" placeholder="Message">
+                                    </div>
+                                    <span class="input-group-addon">
+                                        <a href="javascript:void(0);"><i class="material-icons">send</i></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- comment list -->
+                        <div class="col-md-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user3.png" alt="User"/><a href="user.html"><span>Della Peters</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                        </div>
+
+                        <div class="col-md-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user7.png" alt="User"/><a href="user.html"><span>Lucille Shaw</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</div>
+                        </div>
+
+                        <div class="col-md-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user8.png" alt="User"/><a href="user.html"><span>Alice Hayes</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy. Lorem Ipsum has been the industry's standard dummy.</div>
+                        </div>
+
+                        <div class="col-md-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user3.png" alt="User"/><a href="user.html"><span>Della Peters</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</div>
+                        </div>
+
+                        <div class="col-md-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user7.png" alt="User"/><a href="user.html"><span>Lucille Shaw</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is typesetting industry. Lorem Ipsum has been the industry's standard dummy.</div>
+                        </div>
+
+                        <div class="col-md-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user8.png" alt="User"/><a href="user.html"><span>Alice Hayes</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy.</div>
+                        </div>
+
+                        <div class="col-md-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user8.png" alt="User"/><a href="user.html"><span>Alice Hayes</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy. Lorem industry's standard dummy.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div role="tabpanel" class="tab-pane p-t-20 fade" id="2">
+                <!-- <div class="col-md-12 col-xs-12 orderhood-title">
+                    <h4>8 people like this dish</h4>
+                    <i class="material-icons">people</i>
+                </div> -->
+
+                <div class="col-md-12">
+                    <div class="col-md-12 dish-description">
+                        <h4>People like this dish (8)</h4>
+
+                        <!-- user item -->
+                        <div class="user-item">
+                            <div class="avatar">
+                                <img src="images/user14.png" alt="User"/>
+                            </div>
+                            <div class="user-info">
+                                <a href="user.html"><h1>Adam Green</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons">bookmark</i><span>3</span></li>
+                                        <li><i class="material-icons">face</i><span>21</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="follow"><button type="button" class="btn bg-red btn-sm waves-effect"><i class="material-icons">person_add</i></button></div>
+                        </div>
+                        <div class="user-item">
+                            <div class="avatar">
+                                <img src="images/user1.png" alt="User"/>
+                            </div>
+                            <div class="user-info">
+                                <a href="user.html"><h1>Ronnie Stevenson</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons">bookmark</i><span>2</span></li>
+                                        <li><i class="material-icons">face</i><span>17</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="follow"><button type="button" class="btn bg-red btn-sm waves-effect"><i class="material-icons">person_add</i></button></div>
+                        </div>
+                        <div class="user-item">
+                            <div class="avatar">
+                                <img src="images/user2.png" alt="User"/>
+                            </div>
+                            <div class="user-info">
+                                <a href="user.html"><h1>Josie Medina</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons">bookmark</i><span>1</span></li>
+                                        <li><i class="material-icons">face</i><span>5</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="follow"><button type="button" class="btn bg-red btn-sm waves-effect"><i class="material-icons">person_add</i></button></div>
+                        </div>
+
+                        <div class="user-item">
+                            <div class="avatar">
+                                <img src="images/user3.png" alt="User"/>
+                            </div>
+                            <div class="user-info">
+                                <a href="user.html"><h1>Della Peters</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons">bookmark</i><span>5</span></li>
+                                        <li><i class="material-icons">face</i><span>18</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="follow"><button type="button" class="btn bg-red btn-sm waves-effect"><i class="material-icons">person_add</i></button></div>
+                        </div>
+
+                        <div class="user-item">
+                            <div class="avatar">
+                                <img src="images/user4.png" alt="User"/>
+                            </div>
+                            <div class="user-info">
+                                <a href="user.html"><h1>Iva Morales</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons">bookmark</i><span>4</span></li>
+                                        <li><i class="material-icons">face</i><span>13</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="follow"><button type="button" class="btn bg-red btn-sm waves-effect"><i class="material-icons">person_add</i></button></div>
+                        </div>
+
+                        <div class="user-item">
+                            <div class="avatar">
+                                <img src="images/user5.png" alt="User"/>
+                            </div>
+                            <div class="user-info">
+                                <a href="user.html"><h1>Henry Vargas</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons">bookmark</i><span>3</span></li>
+                                        <li><i class="material-icons">face</i><span>1</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="follow"><button type="button" class="btn bg-grey btn-sm"><i class="material-icons">person</i></button></div>
+                        </div>
+                        <div class="user-item">
+                            <div class="avatar">
+                                <img src="images/user6.png" alt="User"/>
+                            </div>
+                            <div class="user-info">
+                                <a href="user.html"><h1>Lucy Holland</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons">bookmark</i><span>8</span></li>
+                                        <li><i class="material-icons">face</i><span>6</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="follow"><button type="button" class="btn bg-red btn-sm waves-effect"><i class="material-icons">person_add</i></button></div>
+                        </div>
+                        <div class="user-item">
+                            <div class="avatar">
+                                <img src="images/user7.png" alt="User"/>
+                            </div>
+                            <div class="user-info">
+                                <a href="user.html"><h1>Lucille Shaw</h1></a>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons">bookmark</i><span>20</span></li>
+                                        <li><i class="material-icons">face</i><span>132</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="follow"><button type="button" class="btn bg-red btn-sm waves-effect"><i class="material-icons">person_add</i></button></div>
+                        </div>
+                                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end Tab panes -->
+
+
+        <!-- checkout -->
+        <div class="col-md-3 ymal">
+            <a href="#"><h3 class="card-price add-to-cart">$10.99</h3></a>
+
+            <div class="col-lg-12 ymal-description">
+                <h4><i class="material-icons">restaurant</i> You may also like</h4>
+                <br>
+
+                <div class="card">
+                    <div class="view">
+                        <h3 class="card-price">$13.00</h3>
+                        <img src="https://s3-media1.fl.yelpcdn.com/bphoto/BoOELmF99ilZER2UjLOOmQ/o.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="header">
+                        <h2><a href="dish.html">Crab cakes</a></h2>
+                        <div class="number">
+                            <ul>
+                                <li><i class="material-icons txt-red">favorite</i><span>12</span></li>
+                                <li><i class="material-icons">shopping_cart</i><span>3</span></li>
+                                <li class="dropdown pull-right nmr">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="javascript:void(0);" class=" waves-effect waves-block"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                        <li><a href="javascript:void(0);" class=" waves-effect waves-block"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div class="card">
+                    <div class="view">
+                        <h3 class="card-price">$10.00</h3>
+                        <img src="https://s3-media3.fl.yelpcdn.com/bphoto/rTW294Va3z8d1JRCqeKAVg/o.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="header">
+                        <h2><a href="dish.html">La Contenta Nachos</a></h2>
+                        <div class="number">
+                            <ul>
+                                <li><i class="material-icons txt-red">favorite</i><span>7</span></li>
+                                <li><i class="material-icons">shopping_cart</i><span>1</span></li>
+                                <li class="dropdown pull-right nmr">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="javascript:void(0);" class=" waves-effect waves-block"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                        <li><a href="javascript:void(0);" class=" waves-effect waves-block"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div> 
+                </div>
+
+
+                <div class="card">
+                    <div class="view">
+                        <h3 class="card-price">$12.99</h3>
+                        <img src="https://s3-media3.fl.yelpcdn.com/bphoto/K4N3Dczv5UGIvO-Yr9k51g/o.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="header">
+                        <h2><a href="dish.html">Spicy Salmon w/ Sriracha Aioli &amp; PokeSpot Special Bowl</a></h2>
+                        <div class="number">
+                            <ul>
+                                <li><i class="material-icons txt-red">favorite</i><span>43</span></li>
+                                <li><i class="material-icons">shopping_cart</i><span>6</span></li>
+                                <li class="dropdown pull-right nmr">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="javascript:void(0);" class=" waves-effect waves-block"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                        <li><a href="javascript:void(0);" class=" waves-effect waves-block"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div> 
+                </div>
+
+                <a href="restaurant.html" class="btn btn-block btn-lg btn-outline">SEE MORE DISHES</a>
+            </div>            
+        </div>
+
+    </section>
+
+
+
+    
+
+    <!-- Jquery Core Js -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Light Gallery Plugin Js -->
+    <script src="plugins/light-gallery/js/lightgallery-all.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="plugins/node-waves/waves.js"></script>
+
+    <!-- Custom Js -->
+    <script src="js/pages/medias/image-gallery.js"></script>
+    <script src="js/admin.js"></script>
+
+</body>
+</html>

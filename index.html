@@ -1,0 +1,817 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Orderhood</title>
+    <!-- Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core Css -->
+    <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Preloader Css -->
+    <link href="plugins/material-design-preloader/md-preloader.css" rel="stylesheet" />
+
+    <!-- Sweet Alert Css -->
+    <link href="plugins/sweetalert/sweetalert.css" rel="stylesheet" />
+
+    <!-- Bootstrap Tagsinput Css -->
+    <link href="plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
+
+    <!-- Custom Css -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- theme orderhood -->
+    <link href="css/theme-orderhood.css" rel="stylesheet" />
+
+
+</head>
+
+<body class="theme-orderhood">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="md-preloader pl-size-md">
+                <svg viewbox="0 0 75 75">
+                    <circle cx="37.5" cy="37.5" r="33.5" class="pl-red" stroke-width="4" />
+                </svg>
+            </div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <div class="search-icon">
+            <i class="material-icons">search</i>
+        </div>
+        <input type="text" placeholder="START TYPING...">
+        <div class="close-search">
+            <i class="material-icons">close</i>
+        </div>
+    </div>
+    <!-- #END# Search Bar -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">OrderHood</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+                    <!-- <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i></a></li> -->
+                    <li><button class="btn btn-outline btn-lg" data-toggle="modal" data-target="#signin">Sign In</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+
+
+
+
+    <section class="homepage">
+    	<a href="javascript:void(0);">
+	    	<div class="homepage-ad">
+	    		<h4>Prime Rib of Beef, English Cut</h4>
+	    		<small>Keens Steakhouse in New York</small>
+	    	</div>
+    	</a>
+
+	    <div class="col-md-12 col-xs-12 homepage-content">
+
+	    	<div class="col-md-12">
+	    		<h1>Hey, wanna eat something?</h1>
+	    	</div>
+	        <!-- <form>
+	            <div class="col-md-4">
+	                <div class="form-group form-float">
+	                    <div class="form-line">
+	                        <input type="text" class="form-control" placeholder="New York">
+	                        <label class="form-label">Location?</label>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6">
+	                <div class="form-group form-float">
+	                    <div class="form-line">
+	                        <input type="text" class="form-control" placeholder="Healthy, Happy, Friday">
+	                        <label class="form-label">Keyword?</label>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-2">
+	                <input type="checkbox" id="remember_me_4" class="filled-in">
+	                <button type="button" class="btn bg-orderhood-green btn-lg waves-effect">SHOW ME</button>
+	            </div>
+	        </form> -->
+            <div class="col-md-12">
+                <div class="row clearfix">
+
+                    <div class="col-md-3">
+                        <div class="form-group form-float" style="margin-bottom: 0;">
+                            <div class="form-box" style="">
+                                <input type="text" class="form-control input-where" value="" placeholder="Location?">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9">
+                        <div class="form-group demo-tagsinput-area">
+                            <div class="form-box">
+                                <input type="text" class="form-control" data-role="tagsinput" value="Beef">
+                                <span class="form-box-search">
+                                    <a href="search.html"><i class="material-icons">search</i></a>
+                                </span>
+                            </div>
+                            
+                        </div>
+
+                        <h5 class="txt-white">How about these?!</h5>
+                        <a href="javascript:void(0);"><span class="label label-lg label-outline">New</span></a>
+                        <a href="javascript:void(0);"><span class="label label-lg label-outline">Healthy</span></a>
+                        <a href="javascript:void(0);"><span class="label label-lg label-outline">Happy</span></a>
+                        <a href="javascript:void(0);"><span class="label label-lg label-outline">Afternoon</span></a>
+                        <a href="javascript:void(0);"><span class="label label-lg label-outline">Small money</span></a>
+                        <a href="javascript:void(0);"><span class="label label-lg label-outline">Friday</span></a>
+                        <a href="javascript:void(0);"><span class="label label-lg label-outline">Desserts</span></a>
+                        <a href="javascript:void(0);"><span class="label label-lg label-outline">Salads</span></a>
+                        <a href="javascript:void(0);"><span class="label label-lg label-outline">Korean</span></a>
+                    </div>
+
+
+                </div>
+            </div>
+	    </div>
+    </section>
+
+
+    <section class="homepage-intro">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 what-is">
+                <h1>What is Orderhood?</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy.</p>
+            </div>
+
+            <div class="col-md-4 col-xs-12">
+                <img src="images/guide.png" alt="">
+                <h3>Best Food Guide</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <img src="images/sharing.png" alt="">
+                <h3>Dishes Sharing</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <img src="images/cutlery.png" alt="">
+                <h3>Diversity of Ordering</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+    <!-- homepage list -->
+    <section class="container">
+        <!-- themes -->
+        <div class="col-md-12 col-xs-12 orderhood-title">
+            <h4>Weekly Picks Themes</h4>
+            <i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>
+        </div>
+
+        <!-- theme item -->
+        <div class="col-md-6 col-xs-12">
+            <div class="theme-item">
+                <div class="theme-img">
+                    <div class="like"><a href="theme.html"><i class="material-icons txt-white">restaurant</i></a></div>
+                    <img src="https://s3-media1.fl.yelpcdn.com/bphoto/BoOELmF99ilZER2UjLOOmQ/o.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="theme-info">
+                    <a href="theme.html"><h1>Good Friday</h1></a>
+                    <div class="number">
+                        <ul>
+                            <li><i class="material-icons txt-red">favorite</i><span>12</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tags">
+                        <span class="label label-md label-outline">New</span>
+                        <span class="label label-md label-outline">Healthy</span>
+                        <span class="label label-md label-outline">Happy</span>
+                        <span class="label label-md label-outline">Afternoon</span>
+                        <span class="label label-md label-outline">Small money</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- example -->
+        <div class="col-md-6 col-xs-12">
+            <div class="theme-item">
+                <div class="theme-img">
+                    <div class="like"><a href="theme.html"><i class="material-icons txt-white">restaurant</i></a></div>
+                    <img src="https://s3-media4.fl.yelpcdn.com/bphoto/tYa34sXSyBEVJj_bFtK40A/o.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="theme-info">
+                    <a href="theme.html"><h1>Burger Paradise in New York</h1></a>
+                    <div class="number">
+                        <ul>
+                            <li><i class="material-icons txt-red">favorite</i><span>234</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tags">
+                        <span class="label label-md label-outline">New York</span>
+                        <span class="label label-md label-outline">Burger</span>
+                        <span class="label label-md label-outline">Fries</span>
+                        <span class="label label-md label-outline">sandwich</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-6 col-xs-12">
+            <div class="theme-item">
+                <div class="theme-img">
+                    <div class="like"><a href="theme.html"><i class="material-icons txt-white">restaurant</i></a></div>
+                    <img src="https://s3-media3.fl.yelpcdn.com/bphoto/K4N3Dczv5UGIvO-Yr9k51g/o.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="theme-info">
+                    <a href="theme.html"><h1>Japanese Bowl Collection</h1></a>
+                    <div class="number">
+                        <ul>
+                            <li><i class="material-icons txt-red">favorite</i><span>32</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tags">
+                        <span class="label label-md label-outline">Bowl</span>
+                        <span class="label label-md label-outline">PokeSpot</span>
+                        <span class="label label-md label-outline">Spicy</span>
+                        <span class="label label-md label-outline">Salmon</span>
+                        <span class="label label-md label-outline">New York</span>
+                        <span class="label label-md label-outline">Charging Bull</span>
+                        <span class="label label-md label-outline">Sriracha</span>
+                        <span class="label label-md label-outline">Aioli</span>
+                        <span class="label label-md label-outline">Hot</span>
+                        <span class="label label-md label-outline">Japanese</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-6 col-xs-12">
+            <div class="theme-item">
+                <div class="theme-img">
+                    <div class="like"><a href="theme.html"><i class="material-icons txt-white">restaurant</i></a></div>
+                    <img src="https://s3-media4.fl.yelpcdn.com/bphoto/jb4ftDGlL3miOvRO9Aw0Pg/o.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="theme-info">
+                    <a href="theme.html"><h1>Woorijip Authentic Korean Food is here!</h1></a>
+                    <div class="number">
+                        <ul>
+                            <li><i class="material-icons txt-red">favorite</i><span>132</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tags">
+                        <span class="label label-md label-outline">Korean</span>
+                        <span class="label label-md label-outline">Authentic</span>
+                        <span class="label label-md label-outline">Kimchi</span>
+                        <span class="label label-md label-outline">Asian</span>
+                        <span class="label label-md label-outline">Warm</span>
+                        <span class="label label-md label-outline">Winter</span>
+                        <span class="label label-md label-outline">December</span>
+                        <span class="label label-md label-outline">November</span>
+                        <span class="label label-md label-outline">Spicy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- dishes -->
+        <div class="col-md-12 col-xs-12 orderhood-title">
+            <h4>Hot Dishes</h4>
+            <i class="material-icons">whatshot</i>
+        </div>
+
+        <div class="col-md-12 col-xs-12">
+            <div class="content list">
+                <div class="card-row clearfix">
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$13.00</h3>
+                                <img src="https://s3-media1.fl.yelpcdn.com/bphoto/BoOELmF99ilZER2UjLOOmQ/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">Crab cakes</a><small><a href="#">Shared Plates in New York</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>12</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>3</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$3.55</h3>
+                                <img src="https://s3-media1.fl.yelpcdn.com/bphoto/0XUjbyfJ5gaXHQyHYv_ENg/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">Vegetarian Pita Sandwich</a><small><a href="#">Eva’s Kitchen in New York</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>12</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>3</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$7.59</h3>
+                                <img src="https://s3-media1.fl.yelpcdn.com/bphoto/looMh0l_Zb6BjFV2E-uVEQ/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">Harissa</a><small><a href="#">Our falafel flavors in Brooklyn</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>321</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>1</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$10.00</h3>
+                                <img src="https://s3-media3.fl.yelpcdn.com/bphoto/rTW294Va3z8d1JRCqeKAVg/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">La Contenta Nachos</a><small><a href="#">La Contenta in New York</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>7</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>1</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$12.99</h3>
+                                <img src="https://s3-media3.fl.yelpcdn.com/bphoto/K4N3Dczv5UGIvO-Yr9k51g/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">Spicy Salmon w/ Sriracha Aioli & PokeSpot Special Bowl</a><small><a href="#">The PokéSpot in Queens</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>43</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>6</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$9.99</h3>
+                                <img src="https://s3-media1.fl.yelpcdn.com/bphoto/Rrtsi0d4NZ-RR91UPRn7MQ/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">Truffle Mac n Cheese</a><small><a href="#">Thursday Kitchen in New York</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>1</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$8.50</h3>
+                                <img src="https://s3-media1.fl.yelpcdn.com/bphoto/qVeRyVCmhUKx36PcY7IEkw/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">Sea sandwich</a><small><a href="#">Cheeky Sandwiches in Chicago</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>7</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>1</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$5.00</h3>
+                                <img src="https://s3-media1.fl.yelpcdn.com/bphoto/6kKi80eBZRYPbO8FrGbSbA/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">Eggplant Parm</a><small><a href="#">Parisi Bakery in Los Angels</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>2</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>1</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$16.00</h3>
+                                <img src="https://s3-media3.fl.yelpcdn.com/bphoto/XVvIuTDG6eftFsM_syHnKw/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">Burrata</a><small><a href="#">Antipasti in New York</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>72</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>4</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$19.00</h3>
+                                <img src="https://s3-media2.fl.yelpcdn.com/bphoto/QjTzzmpZIuX5R7DBnRSswQ/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">Charred Octopus</a><small><a href="#">Antipasti in New York</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>114</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>12</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="card-item">
+                        <div class="card">
+                            <div class="view">
+                                <h3 class="card-price">$10.00</h3>
+                                <img src="https://s3-media3.fl.yelpcdn.com/bphoto/X_j4QW0_yu362UxTbyO80w/o.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="header">
+                                <h2><a href="dish.html">Grilled Seasonal Vegetables</a><small><a href="#">Antipasti in New York</a></small></h2>
+                                <div class="number">
+                                    <ul>
+                                        <li><i class="material-icons txt-red">favorite</i><span>54</span></li>
+                                        <li><i class="material-icons">shopping_cart</i><span>12</span></li>
+                                        <li class="dropdown pull-right nmr">
+                                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <button href="#" class="btn btn-outline add"><i class="material-icons">add</i></button>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0);"><i class="material-icons">bookmark</i>Add to theme</a></li>
+                                                <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Add to cart</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+                            
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- signin modal -->
+    <div class="modal fade" id="signin" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <a class="clear" data-dismiss="modal"><i class="material-icons">clear</i></a>
+            
+            <div class="modal-content p-t-30 txtc">
+                <div class="modal-header">
+                    <img src="images/logo.png" width="80%">
+                    <!-- <h5 class="subtitle">Sign in to your account</h5> -->
+                </div>
+
+                <div class="modal-body">
+                    <form id="sign_in" method="POST">
+
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input type="text" class="form-control">
+                                <label class="form-label">Username or Email</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input type="password" class="form-control">
+                                <label class="form-label">Password</label>
+                            </div>
+                            <a class="pull-right" href="forgot-password.html">Forgot Password?</a>
+                        </div>
+
+                        <button class="btn btn-block bg-orderhood-green btn-lg waves-effect" type="submit">SIGN IN</button>
+                    </form>
+                        
+                    <div class="row or"><h5>Or sign in with</h5></div>
+
+                    <div class="row">
+                        <div class="col-lg-12 p-b-10">
+                            <button class="btn btn-block btn-lg bg-primary waves-effect" type="submit">FACEBOOK</button>
+                        </div>
+                        <div class="col-lg-12">
+                            <button class="btn btn-block btn-lg bg-red waves-effect" type="submit">GOOGLE+</button>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="col-xs-12">
+                        <h5 class="subtitle">Not a member yet? <a data-toggle="modal" data-dismiss="modal" data-target="#signup">Sign Up Now!</a></h5>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- signup modal -->
+    <div class="modal fade" id="signup" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <a class="clear" data-dismiss="modal"><i class="material-icons">clear</i></a>
+            
+            <div class="modal-content p-t-30 txtc">
+                <div class="modal-header">
+                    <img src="images/logo.png" width="80%">
+                    <!-- <h5 class="subtitle">Welcome!</h5> -->
+                </div>
+
+                <div class="modal-body">
+                    <form id="sign_in" method="POST">
+
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input type="text" class="form-control">
+                                <label class="form-label">Username</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input type="text" class="form-control">
+                                <label class="form-label">Email</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input type="password" class="form-control">
+                                <label class="form-label">Password</label>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-block bg-orderhood-green btn-lg waves-effect" type="submit">SIGN UP NOW</button>
+                    </form>
+                        
+                    <div class="row or"><h5>You can also sign up with</h5></div>
+
+                    <div class="row">
+                        <div class="col-lg-12 p-b-10">
+                            <button class="btn btn-block btn-lg bg-primary waves-effect" type="submit">FACEBOOK</button>
+                        </div>
+                        <div class="col-lg-12">
+                            <button class="btn btn-block btn-lg bg-red waves-effect" type="submit">GOOGLE+</button>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="col-xs-12">
+                        <h5 class="subtitle">Already join? <a data-toggle="modal" data-dismiss="modal" data-target="#signin">Sign In Here!</a></h5>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Jquery Core Js -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="plugins/node-waves/waves.js"></script>
+
+    <!-- Bootstrap Tags Input Plugin Js -->
+    <script src="plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+
+    <!-- Custom Js -->
+    <script src="js/admin.js"></script>
+
+</body>
+</html>

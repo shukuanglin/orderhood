@@ -1,0 +1,713 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Orderhood</title>
+    <!-- Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core Css -->
+    <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Preloader Css -->
+    <link href="plugins/material-design-preloader/md-preloader.css" rel="stylesheet" />
+
+    <!-- Custom Css -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- theme orderhood -->
+    <link href="css/theme-orderhood.css" rel="stylesheet" />
+
+
+</head>
+
+<body class="theme-orderhood">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="md-preloader pl-size-md">
+                <svg viewbox="0 0 75 75">
+                    <circle cx="37.5" cy="37.5" r="33.5" class="pl-red" stroke-width="4" />
+                </svg>
+            </div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <div class="search-icon">
+            <i class="material-icons">search</i>
+        </div>
+        <input type="text" placeholder="START TYPING...">
+        <div class="close-search">
+            <i class="material-icons">close</i>
+        </div>
+    </div>
+    <!-- #END# Search Bar -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">OrderHood</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+
+    
+
+
+
+    <!-- top banner -->
+    <section class="restaurant-banner">
+        <div class="col-lg-12 restaurant-banner-content">
+            <div class="logo"><img src="images/restaurant1.jpg" alt="restaurant"/></div>
+            <div class="info">
+                <h1>Bistro Les Amis</h1>
+                <h5>347 3RD AVE, NEW YORK, NY 10010</h5>
+                <h5>(917) 388-2516</h5>
+                <h5>Delivery Min $12.00<span>|</span>Estimated time 30-45 min</h5>
+                <div class="type">
+                    <a href="javascript:void(0);"><span class="label label-lg label-outline">Healthy</span></a>
+                    <a href="javascript:void(0);"><span class="label label-lg label-outline">Sandwiches</span></a>
+                    <a href="javascript:void(0);"><span class="label label-lg label-outline">Salads</span></a>
+                    <a href="javascript:void(0);"><span class="label label-lg label-outline">Gluten-Free</span></a>
+                    <a href="javascript:void(0);"><span class="label label-lg label-outline">Italian</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- panel -->
+    <section class="dish-panel">
+        <div class="profile-tabs">
+            <ul class="nav nav-tabs tab-col-orderhood" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#0" data-toggle="tab">
+                        <i class="material-icons">view_list</i> MENU
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#1" data-toggle="tab">
+                        <i class="material-icons">local_dining</i> ABOUT
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#2" data-toggle="tab">
+                        <i class="material-icons">rate_review</i> REVIEWS (7)
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="dish-detail">
+        <!-- Tab panes -->
+        <div class="col-lg-9 tab-content">
+            <div role="tabpanel" class="tab-pane fade p-t-20 in active" id="0">
+
+                <div class="col-md-12">
+                    <div class="col-lg-12 dish-description">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="material-icons">search</i></span>
+                            <div class="form-line"><input type="text" class="form-control" placeholder="Search dish"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-12">
+
+                    <!-- popular dishes -->
+                    <div class="menu-description">
+                        <a role="button" data-toggle="collapse" href="#populardishes" aria-expanded="true" aria-controls="populardishes">
+                            <h4><i class="material-icons">whatshot</i>Popular Dishes</h4>
+                        </a>
+                        <div id="populardishes" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="populardishes">
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Arizona Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$15.99+</h5></a>
+                                    <p>Chicken, turkey bacon, tomatoes, scallions and zero-carb signature sauce over brown rice. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>231</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>87</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Godfather Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$9.99+</h5></a>
+                                    <p>Chicken, portabella mushrooms, roasted red peppers, part-skim mozzarella and gluten and fat-free balsamic-vinaigrette over broccoli. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>332</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>231</span></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Santa Ana Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$5.99+</h5></a>
+                                    <p>Chicken, turkey bacon, reduced-fat cheddar cheese and zero-carb signature sauce over red bean and brown rice. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>132</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>157</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Teriyaki Stir-fry Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$7.99+</h5></a>
+                                    <p>Chicken, portabella mushrooms, onions and peppers, carrots, sesame seeds and teriyaki sauce over brown rice. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>123</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>431</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Grilled Chicken Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$15.99+</h5></a>
+                                    <p>Chicken, broccoli and brown rice. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>95</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>312</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Turkey Chili Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$10.99+</h5></a>
+                                    <p>Lean ground turkey chili, red beans salsa.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <!-- end popular dishes -->
+
+
+
+
+
+                    <!-- menu -->
+                    <div class="menu-description">
+                        <a role="button" data-toggle="collapse" href="#fitbowls" aria-expanded="true" aria-controls="fitbowls">
+                            <h4>Fit Bowls</h4>
+                        </a>
+                        <div id="fitbowls" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="fitbowls">
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Arizona Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$10.99+</h5></a>
+                                    <p>Chicken, turkey bacon, tomatoes, scallions and zero-carb signature sauce over brown rice. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>14</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>4</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Godfather Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$10.99+</h5></a>
+                                    <p>Chicken, portabella mushrooms, roasted red peppers, part-skim mozzarella and gluten and fat-free balsamic-vinaigrette over broccoli. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Santa Ana Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$10.99+</h5></a>
+                                    <p>Chicken, turkey bacon, reduced-fat cheddar cheese and zero-carb signature sauce over red bean and brown rice. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">El Mexicana Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$10.99+</h5></a>
+                                    <p>Chicken, onions and peppers, reduced-fat cheddar cheese, salsa, tomatoes and scallions over brown rice and beans. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Teriyaki Stir-fry Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$10.99+</h5></a>
+                                    <p>Chicken, portabella mushrooms, onions and peppers, carrots, sesame seeds and teriyaki sauce over brown rice. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Grilled Chicken Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$10.99+</h5></a>
+                                    <p>Chicken, broccoli and brown rice. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Turkey Chili Bowl</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$10.99+</h5></a>
+                                    <p>Lean ground turkey chili, red beans, reduced-fat cheddar cheese, salsa, fat-free sour cream, tomatoes and scallions over brown rice. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <!-- end menu -->
+
+
+
+                    <!-- menu -->
+                    <div class="menu-description">
+                        <a role="button" data-toggle="collapse" href="#freshgreens" aria-expanded="true" aria-controls="freshgreens">
+                            <h4>Fresh Greens</h4>
+                        </a>
+                        <div id="freshgreens" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="freshgreens">
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Kale and Quinoa Salad</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$9.99+</h5></a>
+                                    <p>Chicken, white sauce, roasted red peppers, avocado, Asian sesame ginger dressing on a power blend of romaine and baby kale.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>14</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>4</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Asian Sesame Ginger Salad</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$9.99+</h5></a>
+                                    <p>Chicken, tomatoes, cucumbers, red onions, sesame seeds, craisins, avocado and Asian sesame ginger dressing on a powder blend of romaine and baby kale.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Italiano Salad</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$9.99+</h5></a>
+                                    <p>Chicken, part-skim mozzarella, spinach, roasted red peppers, gluten and fat-free balsamic vinaigrette on a power blend of romaine, spinach and baby kale. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Chicken Caesar Salad</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$9.99+</h5></a>
+                                    <p>Chicken Parmesan cheese, and zero-carb Caesar dressing on a power blend of romaine, spinach and baby kale. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Lean Turkey Taco Salad</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$9.99+</h5></a>
+                                    <p>Lean ground turkey chili, red beans, reduced-fat free cheddar cheese, salsa, romaine, spinach and baby kale. Gluten free.</p>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>9</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <!-- end menu -->
+
+
+                    <!-- menu -->
+                    <div class="menu-description">
+                        <a role="button" data-toggle="collapse" href="#beverages" aria-expanded="true" aria-controls="beverages">
+                            <h4>Beverages</h4>
+                        </a>
+                        <div id="beverages" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="beverages">
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Soda</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$2.00</h5></a>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>1</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>201</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Dasani Bottled Water</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$2.00</h5></a>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>0</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>78</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">PowerAde</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$2.00</h5></a>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>0</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>45</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5><a href="dish.html">Golden Peak Tea</a></h5><a href="javascript:void(0);"><h5 class="card-price pull-right">$3.00</h5></a>
+                                    <div class="number">
+                                        <ul>
+                                            <li><i class="material-icons txt-red">favorite</i><span>12</span></li>
+                                            <li><i class="material-icons">shopping_cart</i><span>32</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <!-- end menu -->
+                </div>
+            </div>
+
+
+
+
+
+            <!-- info -->
+            <div role="tabpanel" class="tab-pane p-t-20 fade" id="1">
+                <div class="col-md-12">
+                    <div class="col-lg-12 dish-description">
+                        <div class="col-lg-8 p-l-0">
+                            <h4>Map</h4>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9827277619597!2d-73.98385128448298!3d40.740405579328836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25909f36304c5%3A0x90e3c7ea0addafd1!2s347+3rd+Ave%2C+New+York%2C+NY+10010!5e0!3m2!1sen!2sus!4v1481580255390" width="100%" height="290" frameborder="0" scrolling="no" style="border:0" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <h4>Open Hours</h4>
+                            <table class="table hours">
+                                <tbody>
+                                    <tr>
+                                        <th>Monday</th>
+                                        <td>9:30am – 9:30pm</td>
+                                    </tr>
+                                    <tr class="active">
+                                        <th>Tuesday</th>
+                                        <td>9:30am – 9:30pm</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Wednesday</th>
+                                        <td>9:30am – 9:30pm</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Thursday</th>
+                                        <td>9:30am – 9:30pm</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Friday</th>
+                                        <td>9:30am – 11:30pm</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Saturday</th>
+                                        <td>9:30am – 11:30pm</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sunday</th>
+                                        <td>9:30am – 7:30pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>   
+
+                </div>
+            </div>
+
+
+
+
+            <!-- reviews -->
+            <div role="tabpanel" class="tab-pane p-t-20 fade" id="2">
+                <div class="col-md-12">
+                    <div class="col-lg-12 dish-description">
+                        <h4>Reviews</h4>
+                        <!-- comment input field -->
+                        <!-- <div class="col-lg-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user.png" alt="User"/><a href="user.html"><span>Kelly Kane</span></a>
+                            </div>
+                            <div class="comment-input">
+                                <div class="input-group">
+                                    <div class="form-line">
+                                        <input type="text" class="form-control date" placeholder="Message">
+                                    </div>
+                                    <span class="input-group-addon">
+                                        <a href="javascript:void(0);"><i class="material-icons">send</i></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- comment list -->
+                        <div class="col-lg-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user3.png" alt="User"/><a href="user.html"><span>Della Peters</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                        </div>
+
+                        <div class="col-lg-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user7.png" alt="User"/><a href="user.html"><span>Lucille Shaw</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</div>
+                        </div>
+
+                        <div class="col-lg-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user8.png" alt="User"/><a href="user.html"><span>Alice Hayes</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy. Lorem Ipsum has been the industry's standard dummy.</div>
+                        </div>
+
+                        <div class="col-lg-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user3.png" alt="User"/><a href="user.html"><span>Della Peters</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</div>
+                        </div>
+
+                        <div class="col-lg-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user7.png" alt="User"/><a href="user.html"><span>Lucille Shaw</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is typesetting industry. Lorem Ipsum has been the industry's standard dummy.</div>
+                        </div>
+
+                        <div class="col-lg-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user8.png" alt="User"/><a href="user.html"><span>Alice Hayes</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy.</div>
+                        </div>
+
+                        <div class="col-lg-12 comment-item">
+                            <div class="creator">
+                                <img src="images/user8.png" alt="User"/><a href="user.html"><span>Alice Hayes</span></a>
+                                <div class="post-date">Posted on Mar 23, 2016</div>
+                            </div>
+                            <div class="comment">Lorem Ipsum is simply dummy. Lorem industry's standard dummy.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-- end Tab panes -->
+
+
+
+        <!-- checkout -->
+        <div class="col-md-3 checkout">
+
+            <div class="col-lg-12 checkout-description">
+                <h4><i class="material-icons">shopping_cart</i> Your Cart</h4>
+                <br>
+                
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Dish</th>
+                            <th></th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Grilled Chicken Bowl<br><small>Regular (As Stated) - Extra Protein</small></td>
+                            <td>1</td>
+                            <td>$12.98</td>
+                            <td><a href="javascript:void(0);"><i class="material-icons">cancel</i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Asian Sesame Ginger Salad<br><small>Substitute Steak</small><small>Fat-Free Honey DIjon</small></td>
+                            <td>1</td>
+                            <td>$11.98</td>
+                            <td><a href="javascript:void(0);"><i class="material-icons">cancel</i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Soda<br><small>Coke</small></td>
+                            <td>1</td>
+                            <td>$2.00</td>
+                            <td><a href="javascript:void(0);"><i class="material-icons">cancel</i></a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="material-icons">drive_eta</i> Delivery Fee</td>
+                            <td></td>
+                            <td>Free</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><i class="material-icons">local_atm</i> Sales Tax</td>
+                            <td></td>
+                            <td>$2.39</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </div>
+
+            <div class="col-md-12 p-l-0 p-r-0"><a href="javascript:void(0);"><h3 class="card-price">Total - $29.35</h3></a></div>
+            
+        </div>
+
+    </section>
+
+
+
+    
+
+    <!-- Jquery Core Js -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Light Gallery Plugin Js -->
+    <script src="plugins/light-gallery/js/lightgallery-all.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="plugins/node-waves/waves.js"></script>
+
+    <!-- Custom Js -->
+    <script src="js/pages/medias/image-gallery.js"></script>
+    <script src="js/admin.js"></script>
+
+</body>
+</html>
